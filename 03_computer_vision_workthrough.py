@@ -575,14 +575,14 @@ print("# Train time on CPU , maybe faster than GPU depending on data/hardware be
       "data/model to and from GPU outweighs the compute benefits of offred by GPU "
       "2. The hardware CPU outperform GPU ... ")
 print(total_train_time_model_0)
-print(total_train_time_model_1)
-
-# Get model_1 result dictionary
-
-model_1_results = eval_model(model=model_1,
-                             data_loader=test_dataloader,
-                             loss_fn=loss_fn,
-                             accuracy_fn=accuracy_fn,
-                             device=device)
-print(model_0_results)
-print(model_1_results)
+# print(total_train_time_model_1)
+#
+# # Get model_1 result dictionary
+#
+# model_1_results = eval_model(model=model_1,
+#                              data_loader=test_dataloader,
+#                              loss_fn=loss_fn,
+#                              accuracy_fn=accuracy_fn,
+#                              device=device)
+# print(model_0_results)
+# print(model_1_results)
